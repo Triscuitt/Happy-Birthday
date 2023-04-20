@@ -68,7 +68,7 @@ padding: 0x 30px 20px;
 }
 
 .box {
-border-style:outset;
+border-style: solid;
 border-color: pink;
 border-width: 5px;
 background-blend-mode: overlay;
