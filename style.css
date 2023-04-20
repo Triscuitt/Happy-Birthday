@@ -86,8 +86,8 @@ padding: 30px 30px 20px;
 margin-inline-start: 55px;
 font-weight: bolder;
 font-size: 14px; /* set the font size of the text */   
-font-family:BlinkMacSystemFont; /* set the font face of the text */
-text-align:center; /* alignment of the text */
+font-family: Cursive; /* set the font face of the text */
+text-align: center; /* alignment of the text */
 padding: 30px 25px 20px;
 position:absolute;
 right: 20%;
