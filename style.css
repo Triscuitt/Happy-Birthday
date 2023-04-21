@@ -1,0 +1,123 @@
+body {
+
+    margin: 0;
+    padding: 0;
+    background-image: url('https://wallpapertag.com/wallpaper/full/4/9/1/147942-large-aesthetic-background-tumblr-1153x1920.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+    background-position: center;
+    font-family: 'Courier New', Cursive, Cursive;
+    z-index: -1;
+
+}
+
+.card {
+
+position:absolute;
+top: 20px; 
+left: 50%;
+width: 55%;
+height: 100%;
+transform: translateX(-50%);
+background-color: rgb(243, 245, 247);
+border: 4px solid lightgoldenrodyellow;
+z-index: 2;
+
+
+}
+
+.heading {   /*The message is "Happy Birthday!"  */
+
+position: absolute;
+left: 50%;
+transform: translateX(-50%);
+z-index: 3;
+animation: color-change 2s infinite;
+
+}
+
+.greeting { /* The message is "Dear Xelle" */
+
+position: absolute;
+font-size: 18px;
+font-weight: bold;
+left: 5%;
+transform: translateX(-5%);
+top: 50px;
+z-index: 3;
+color: rgb(100, 100, 3);
+text-shadow: 0 0 20px rgb(165, 165, 12);
+
+}
+
+.message { /* The message is the long paragraph */
+
+position: absolute;
+font-size: 16px ;
+left: 50%;
+transform: translateX(-50%);
+top: 80px;
+line-height: 28px;
+padding: 0 1px 0;
+text-align: justify;
+z-index: 3;
+color: rgb(100, 100, 3);
+text-shadow: 0 0 20px rgb(165, 165, 12);
+
+}
+
+.signature { /* The message is "Triscuit" */
+
+position: absolute;
+font-size: 16px;
+font-weight: bold;
+right: 5%;
+transform: translateX(-5%);
+bottom: 5%;
+transform: translateY(-5%);
+text-decoration: underline;
+z-index: 3;
+color: rgb(16, 112, 190);
+text-shadow: 0 0 20px rgb(8, 79, 212);
+
+}
+
+@keyframes color-change {
+    0% {
+      color: rgb(191, 223, 9);
+    }
+    50% {
+      color: rgb(177, 12, 177);
+    }
+    100% {
+      color: green;
+    }
+  }
+    
+@media only screen and (max-width: 400px) {
+
+    .greeting { /* The message is "Dear Xelle" */
+
+        font-size: 14px;
+        top: 70px;
+    }
+    .message { /* The message is the long paragraph */
+
+        position: absolute;
+        font-size: 12px ;
+        top: 100px;
+        line-height: 18px;
+        padding: 5px 5px 0;
+     
+    }
+    
+    .signature { /* The message is "Triscuit" */
+
+        position: absolute;
+        font-size: 12px;
+        bottom: 5%;
+        
+    }
+
+    }
